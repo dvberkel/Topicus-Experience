@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>BMIPanel</title>
+	</head>
+	<body>
+		<wicket:panel>
+			<form wicket:id="bmiform">
+				<span wicket:id="feedbackpanel">[feedbackpanel]</span>
+				<input wicket:id="gewichtMeting" type="text" size="4"/> g
+				<input wicket:id="lengteMeting" type="text" size="4"/> meter
+				<button type="submit">Bereken</button>
+				<span wicket:id="bmi">[BMI]</span>
+			</form>
+		</wicket:panel>
+	</body>
+</html>
